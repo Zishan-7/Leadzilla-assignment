@@ -1,0 +1,14 @@
+{
+  "name": "Linkedin Autoconnect",
+  "description": "Extension that will send connection request to several people on one click (made for LeadZilla assignment)",
+  "manifest_version": 3,
+
+  "version": "1.0",
+  "permissions": ["scripting"],
+  "host_permissions": ["https://*.linkedin.com/*"],
+
+  "action": {
+    "default_title": "Linkedin Autoconnect",
+    "default_popup": "popup.html"
+  }
+}
